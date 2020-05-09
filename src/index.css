@@ -1,0 +1,28 @@
+.header {
+    font-size: 8vw;
+    margin-bottom: 3vw;
+}
+
+.container {
+    width: 90%;
+}
+
+.headerDiv {
+    width: 100%;
+    text-align: center;
+}
+
+.checkboxes {
+    position: relative;
+    float: left;
+}
+
+.searchBar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#multiselectContainerReact {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,19 @@
+.resultsWrapper {
+    position: relative;
+    text-align: center;
+    top: 5vw;
+    margin-bottom: 5vh;
+    
+}
+
+.renderResults {
+    position: relative;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.chartTitle {
+    position: relative;
+    text-align: center;
+    font-size: 3vw;
+}
