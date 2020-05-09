@@ -140,6 +140,17 @@ class App extends Component {
       <div className="container">
         <div className="headerDiv">
           <h1 className="header">Data visualisations</h1>
+          {Object.keys(this.state.data).length === 0 ?
+          <p>Waiting for data to be loaded or the server to start</p>
+          :
+          <p style={{textAlign: "left"}}>
+            1. First select an indicator <br/>
+            2. Next select the demographics (Countries, continents etc.) you wish to visualise <br/>
+            3. Select all years or a specific year to be visualised <br/>
+            4. Select the type of visualisation you want to be used <br/>
+            If an empty graph is displayed select another year or country. <br/> 
+          </p>
+          }
           <Indicators options={this.state.indicators} onIndicatorSelect={this.onIndicatorSelect} onIndicatorRemove={this.onIndicatorRemove}/>
           <Countries ref={this.countryRender} options={this.state.countries} onIndicatorSelect={this.onCountrySelect} onIndicatorRemove={this.onCountryRemove}/>
           <Years options={this.state.years} onYearSelect={this.onYearSelect} onYearRemove={this.onYearRemove}/>
