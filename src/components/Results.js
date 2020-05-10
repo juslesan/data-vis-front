@@ -22,7 +22,7 @@ class Results extends Component {
         }
         if (chartType === "pie") {
             return (
-                <PieChart dataset={{radius: 1.5}} data={data} messages={{empty: "No data"}} ytitle={label}/>
+                <PieChart dataset={{radius: 1.5}} data={data} messages={{empty: "No data"}} title={label}/>
             )
         }
         if (chartType === "bar") {

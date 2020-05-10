@@ -141,7 +141,7 @@ class App extends Component {
         <div className="headerDiv">
           <h1 className="header">Data visualisations</h1>
           {Object.keys(this.state.data).length === 0 ?
-          <p>Waiting for data to be loaded or the server to start</p>
+          <p>Waiting for data to be loaded or the server to start. Server boot may take up to a minute.</p>
           :
           <p style={{textAlign: "left"}}>
             1. First select an indicator <br/>
